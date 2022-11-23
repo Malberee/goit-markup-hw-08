@@ -1,0 +1,59 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/is-hidden";
+@import "./utils/no-scroll";
+@import "./base/reset";
+@import "./base/section";
+@import "./base/container";
+@import "./base/link";
+@import "./components/logo";
+@import "./components/title";
+@import "./components/contacts";
+@import "./components/socials";
+@import "./layouts/header";
+@import './components/menu';
+@import "./components/hero";
+@import "./components/advances";
+@import "./components/specification.scss";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/filters";
+@import "./components/portfolio";
+@import "./layouts/footer";
+@import "./components/modal";
+@import "./components/theme-toggle-btn.scss";
+
+// @import "./utils/variables";
+// @import "./utils/visually-hidden";
+// @import "./base/reset";
+// @import "./base/section";
+// @import "./base/container";
+// @import "./base/link";
+// @import "./components/logo";
+// @import "./components/title";
+// @import "./components/contacts";
+// @import "./components/socials";
+// @import "./mixins/centerer";
+// @import "./mixins/transition";
+
+// @import "./mobile/layouts/header";
+// @import "./mobile/layouts/footer";
+// @import "./mobile/components/hero";
+// @import "./mobile/components/advances";
+// @import "./mobile/components/specification";
+// @import "./mobile/components/team";
+// @import "./mobile/components/clients";
+
+// @import "./mobile/components/filters";
+// @import "./mobile/components/portfolio";
+
+// @import "./tablet/layouts/header";
+// @import "./tablet/layouts/footer";
+// @import "./tablet/components/hero";
+// @import "./tablet/components/advances";
+// @import "./tablet/components/specification";
+// @import "./tablet/components/team";
+// @import "./tablet/components/clients";
+
+// @import "./tablet/components/filters";
+// @import "./tablet/components/portfolio";

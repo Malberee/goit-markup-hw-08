@@ -1,0 +1,42 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--secondary-text-color);
+    background-color: var(--background-body-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style: none;
+}

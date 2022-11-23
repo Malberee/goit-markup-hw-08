@@ -1,0 +1,65 @@
+.advances {
+}
+
+.advances-container {
+}
+
+.advances__list {
+	@media screen and (min-width: 768px) {
+		display: flex;
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+}
+
+.advances__item {
+	@media screen and (max-width: 767px) {
+		margin-bottom: 30px;
+	}
+
+	@media screen and (min-width: 768px) {
+		max-width: 354px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		max-width: 270px;
+		margin-bottom: 0;
+	}
+}
+
+.advances__title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+	margin-bottom: 10px;
+
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advances__paragraph {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+.advances__icon-bg {
+	background-color: var(--background-team-color);
+	padding: 25px 102px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advances__icon {
+	fill: var(--advances-icon-color);
+
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

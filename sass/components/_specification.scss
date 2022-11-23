@@ -1,0 +1,40 @@
+.specification {
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+        padding-top: 0;
+    }
+    
+    .specification__container {}
+    
+    .specification__list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .specification__thumb {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        background-color: rgba(47, 48, 58, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .specification__thumb {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    
+    .specification__item {
+        position: relative;
+    }

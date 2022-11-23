@@ -1,0 +1,80 @@
+.contact-mail,
+.contact-tel {
+	font-weight: 400;
+
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.contact-mail--header,
+.contact-tel--header {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+	display: flex;
+	align-items: center;
+
+	.mail__icon {
+		fill: currentColor;
+		margin-right: 10px;
+
+		@media screen and (max-width: 767px) {
+			display: none;
+		}
+	}
+
+	.tel__icon {
+		fill: currentColor;
+		margin-right: 10px;
+
+		@media screen and (max-width: 767px) {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.menu__contacts {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.contact-tel--header {
+		padding: 0;
+		font-weight: 500;
+		font-size: 34px;
+		line-height: 40px;
+		letter-spacing: 0.02em;
+		@media screen and (max-width: 767px) {
+			margin-bottom: 32px;
+			// padding: 32px 0px;
+		}
+	}
+
+	.contact-mail--header {
+		padding: 0;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+		letter-spacing: 0.02em;
+
+		@media screen and (max-width: 767px) {
+			// margin-bottom: 64px;
+			// padding: 32px 0px;
+		}
+
+	}
+}
+
+.contact-mail--footer,
+.contact-tel--footer {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--footer-mail-tel-color);
+}

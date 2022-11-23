@@ -1,0 +1,41 @@
+:root {
+    --primary-text-color: #757575;
+    --gray-color: #afb1b8;
+    --secondary-text-color: #212121;
+    --background-body-color: #ffffff;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --background-team-color: #f5f4fa;
+    --background-hero-color: #2f303a;
+    --accent-color: #2196f3;
+    --button-active-color: #188ce8;
+    --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+    --header-line-color: #ececec;
+    --logo-item-color: black;
+    --logo-item-inverse-color: white;
+    --advances-icon-color: black;
+    --portfolio-card-border-color: #eeeeee;
+    --modal-forms-border-color: rgba(33, 33, 33, 0.2);
+    --current-theme: url(../images/dark-theme.svg);
+}
+
+:root[data-theme='dark'] {
+    --primary-text-color: #757575;
+    --gray-color: #6e6e70;
+    --secondary-text-color: #ffffff;
+    --background-body-color: #212121;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --background-team-color: #181818;
+    --background-hero-color: #161616;
+    --accent-color: #2196f3;
+    --button-active-color: #188ce8;
+    --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+    --header-line-color: #161616;
+    --logo-item-color: white;
+    --logo-item-inverse-color: white;
+    --advances-icon-color: #757575;
+    --portfolio-card-border-color: #181818;
+    --modal-forms-border-color: rgba(255, 255, 255, 0.2);
+    --current-theme: url(../images/light-theme.svg);
+}
