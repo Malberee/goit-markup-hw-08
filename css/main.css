@@ -110,6 +110,11 @@ img {
 .section {
   padding: 94px 0px;
 }
+@media screen and (max-width: 1199px) {
+  .section {
+    padding: 60px 0px;
+  }
+}
 
 .container {
   margin: 0 auto;
@@ -179,6 +184,12 @@ img {
   margin-bottom: 50px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (max-width: 1199px) {
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
 
 .contact-mail,
 .contact-tel {
@@ -199,6 +210,12 @@ img {
   color: var(--primary-text-color);
   display: flex;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .contact-mail--header,
+.contact-tel--header {
+    font-size: 12px;
+  }
 }
 .contact-mail--header .mail__icon,
 .contact-tel--header .mail__icon {
@@ -326,6 +343,9 @@ img {
   fill: var(--white-color);
 }
 
+.menu__soc {
+  justify-content: left;
+}
 .menu__soc .soc__link {
   font-size: 18px;
   line-height: 22px;
@@ -357,9 +377,15 @@ img {
     display: none;
   }
 }
+@media screen and (max-width: 1199px) {
+  .header__list {
+    margin-left: 88px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .header__list {
     gap: 53px;
+    margin-left: 93px;
   }
 }
 
@@ -633,6 +659,11 @@ img {
   margin-bottom: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px) {
+  .advances__title {
+    text-align: left;
+  }
+}
 
 .advances__paragraph {
   font-size: 14px;
@@ -759,7 +790,6 @@ img {
 
 .clients__list {
   display: flex;
-  gap: 30px;
 }
 @media screen and (max-width: 1199px) {
   .clients__list {
@@ -769,9 +799,15 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .clients__item {
     width: calc(50% - 30px);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients__item {
+    width: calc(33.3333% - 30px);
     margin: 15px;
   }
 }
@@ -806,11 +842,25 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 50px;
 }
 @media screen and (min-width: 768px) {
   .filters__list {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .filters__list {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filters__list {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filters__list {
+    margin-bottom: 50px;
   }
 }
 
