@@ -256,14 +256,9 @@ img {
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 767px) {
-  .contact-tel--header {
     margin-bottom: 32px;
+    color: var(--accent-color);
   }
-}
-@media screen and (max-width: 767px) {
   .contact-mail--header {
     padding: 0;
     font-weight: 500;
@@ -328,8 +323,10 @@ img {
   margin-bottom: 20px;
 }
 
-.footer__soc {
-  margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+  .footer__soc {
+    margin-bottom: 60px;
+  }
 }
 .footer__soc .soc__list {
   display: flex;
@@ -357,9 +354,19 @@ img {
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
+@media screen and (max-width: 424px) {
+  .menu__soc .soc__link {
+    font-size: 14px;
+  }
+}
 .menu__soc .soc__item:not(:last-child) {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+@media screen and (max-width: 424px) {
+  .menu__soc .soc__item:not(:last-child) {
+    padding-right: 5px;
+  }
 }
 
 .header {
@@ -431,10 +438,26 @@ img {
     flex-direction: row;
     gap: 30px;
   }
+  .header__contacts .mail__icon {
+    width: 16px;
+    height: 12px;
+  }
+  .header__contacts .tel__icon {
+    width: 10px;
+    height: 16px;
+  }
 }
 @media screen and (max-width: 1199px) {
   .header__contacts {
     align-items: flex-start;
+  }
+  .header__contacts .mail__icon {
+    width: 14px;
+    height: 10px;
+  }
+  .header__contacts .tel__icon {
+    width: 10px;
+    height: 14px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -581,7 +604,6 @@ img {
 
 .hero__title {
   font-weight: 900;
-  min-height: 84px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -622,6 +644,11 @@ img {
   color: var(--white-color);
   margin-top: 30px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 374px) {
+  .hero__btn {
+    font-size: 12px;
+  }
 }
 .hero__btn:hover, .hero__btn:focus {
   background-color: var(--button-active-color);
@@ -795,25 +822,22 @@ img {
 
 .clients__list {
   display: flex;
+  gap: 30px;
 }
 @media screen and (max-width: 1199px) {
   .clients__list {
     flex-wrap: wrap;
-    margin: -15px;
-    gap: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .clients__item {
     width: calc(50% - 30px);
-    margin: 15px;
   }
 }
 @media screen and (min-width: 768px) {
   .clients__item {
     width: calc(33.3333% - 30px);
-    margin: 15px;
   }
 }
 @media screen and (min-width: 1200px) {

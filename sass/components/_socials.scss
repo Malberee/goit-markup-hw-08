@@ -54,7 +54,9 @@
 }
 
 .footer__soc {
-	margin-bottom: 60px;
+	@media screen and (max-width: 767px) {
+		margin-bottom: 60px;
+	}
 	
 	.soc__list {
 		display: flex;
@@ -84,10 +86,18 @@
 		line-height: 22px;
 		letter-spacing: 0.02em;
 		color: var(--accent-color);
+
+		@media screen and (max-width: 424px) {
+			font-size: 14px;
+		}
 	}
 
 	.soc__item:not(:last-child) {
 		padding-right: 10px;
 		border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+		@media screen and (max-width: 424px) {
+			padding-right: 5px;
+		}
 	}
 }

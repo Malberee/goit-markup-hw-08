@@ -55,10 +55,10 @@
 		font-size: 34px;
 		line-height: 40px;
 		letter-spacing: 0.02em;
-		@media screen and (max-width: 767px) {
+
 			margin-bottom: 32px;
-			// padding: 32px 0px;
-		}
+			color: var(--accent-color);
+		
 	}
 
 	.contact-mail--header {
@@ -67,11 +67,6 @@
 		font-size: 24px;
 		line-height: 28px;
 		letter-spacing: 0.02em;
-
-		@media screen and (max-width: 767px) {
-			// margin-bottom: 64px;
-			// padding: 32px 0px;
-		}
 	}
 }
 
